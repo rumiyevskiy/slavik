@@ -9,10 +9,10 @@ body {
     display: flex;
     flex-direction: column;
     background: 
-        url('/img/bcg/bcg9.jpg') left bottom/50% 50% no-repeat fixed,
-        url('/img/bcg/bcg10.png') left top/50% 50% no-repeat fixed,
-        url('/img/bcg/bcg1.jpg') right top/50% 50% no-repeat fixed,
-        url('/img/bcg/bcg2.jpg') right bottom/50% 50% no-repeat fixed;
+        url('../img/bcg/bcg1.jpg') left bottom/50% 50% no-repeat fixed,
+        url('../img/bcg/bcg10.png') left top/50% 50% no-repeat fixed,
+        url('../img/bcg/bcg1.jpg') right top/50% 50% no-repeat fixed,
+        url('../img/bcg/bcg2.jpg') right bottom/50% 50% no-repeat fixed;
 }
 
 /* ****************************************************** */
