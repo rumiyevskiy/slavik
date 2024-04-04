@@ -138,16 +138,6 @@ body {
     position: relative;
 }
 
-/* .main-block__container::after {
-    background: #BDCCFF;
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 68%;
-    width: 200%;
-    height: 100%;
-} */
-
 .main-block__body {
     margin-bottom: 14px;
 }
@@ -166,14 +156,8 @@ body {
     flex: 0 1 50%;
 }
 
-/* @media (max-width: 767.98px) {
-    .body-main-block {
-        flex-direction: column;
-    }
-} */
-
-
 .content-main-block {
+    padding-top: 40px;
 }
 .content-main-block__body {
     padding-right: 80px;
@@ -217,22 +201,32 @@ body {
 
 .slider-main-block__slide {
     position: relative;
-    /* padding-bottom: 95%; */
+
+    /* нижче варіант от жекі */
+    /* padding-bottom: 70%; */
 }
 
 .slider-main-block__slide img {
+    /* нижче норм працює */
       display: block;
       width: 100%;
       height: 100%;
-      object-fit: cover;
+      /* object-fit: cover; */
+
+    /* нижче варіант от жекі */
+    /* position: absolute;
+    top: center;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; */
 }
+
 
 /* ****************************************************** */
 
 
-
 .partners-main-block {
-    /* max-width: 65%; */
 }
 
 .partners-main-block__label {
@@ -243,8 +237,10 @@ body {
 .partners-main-block__items {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
     column-gap: 5px;
+    align-items: center;
+    text-align: center;
 }
 .partners-main-block__item {
 }
@@ -252,7 +248,16 @@ body {
 .partners-main-block__item img {
     width: 150px;
     height: auto;
+}
 
+/* ****************************************************** */
+
+
+
+@media (max-width: 1199.98px) {
+    .body-main-block {
+        display: block;
+    }
 }
 
 /* ****************************************************** */
@@ -276,3 +281,5 @@ body {
 .footer-body-item {
  font-weight: 700;
 }
+
+/* ****************************************************** */
