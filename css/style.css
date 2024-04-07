@@ -11,7 +11,7 @@ body {
     background: 
         url('../img/bcg/bcg1.jpg') left bottom/50% 50% no-repeat fixed,
         url('../img/bcg/bcg10.png') left top/50% 50% no-repeat fixed,
-        url('../img/bcg/bcg1.jpg') right top/50% 50% no-repeat fixed,
+        url('../img/bcg/bcg9.jpg') right top/50% 50% no-repeat fixed,
         url('../img/bcg/bcg2.jpg') right bottom/50% 50% no-repeat fixed;
 }
 
@@ -201,9 +201,6 @@ body {
 
 .slider-main-block__slide {
     position: relative;
-
-    /* нижче варіант от жекі */
-    /* padding-bottom: 70%; */
 }
 
 .slider-main-block__slide img {
@@ -213,13 +210,6 @@ body {
       height: 100%;
       /* object-fit: cover; */
 
-    /* нижче варіант от жекі */
-    /* position: absolute;
-    top: center;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover; */
 }
 
 
