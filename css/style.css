@@ -15,6 +15,14 @@ body {
         url('../img/bcg/bcg2.jpg') right bottom/50% 50% no-repeat fixed;
 }
 
+@media (max-width: 767.98px) {
+    .wrapper{
+        background: 
+        url('../img/bcg/bcg2.jpg') 0 0/100% 50% no-repeat fixed,
+        url('../img/bcg/bcg3.jpg') 0 bottom/100% 50% no-repeat fixed;
+    }
+}
+
 /* ****************************************************** */
 
 .page {
@@ -29,8 +37,6 @@ body {
 }
 
 [class*="__container"] {
-    /* background: rgba(24, 178, 181, 0.8); */
-    /* background: rgba(0, 23, 37, 0.9); */
     padding: 0px 15px;
 }
 
