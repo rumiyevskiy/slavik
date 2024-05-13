@@ -23,6 +23,10 @@ const swiper = new Swiper('.slider-main-block', {
     },
   });
 
+  swiper.on('click', function (event) {
+    console.log('swiper click', event);
+  });
+
   const swiper2 = new Swiper('.slider-main-block2', {
     // Optional parameters
     loop: true,
@@ -47,4 +51,8 @@ const swiper = new Swiper('.slider-main-block', {
       delay: 6000,
       reverseDirection: true,
     },
+  });
+
+  swiper2.on('click', function (event) {
+    console.log('swiper2 click', event);
   });
